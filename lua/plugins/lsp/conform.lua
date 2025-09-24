@@ -10,7 +10,7 @@ return {
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				lua = { "stylua" },
-				python = { "isort", "black" },
+				python = { "ruff" },
 				go = { "gofmt", "goimports" },
 				c = { "clang-format" },
 			},

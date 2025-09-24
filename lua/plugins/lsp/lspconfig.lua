@@ -32,7 +32,6 @@ return {
 				"tailwindcss",
 				"lua_ls",
 				"pyright",
-				"gopls",
 			},
 			automatic_installation = true,
 			handlers = {
@@ -83,6 +82,7 @@ return {
 
 		vim.diagnostic.config({
 			-- update_in_insert = true,
+			virtual_text = true,
 			float = {
 				focusable = false,
 				style = "minimal",
